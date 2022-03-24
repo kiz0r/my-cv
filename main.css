@@ -1,0 +1,163 @@
+body {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 16px;
+	background: #e5e5e5;
+	margin: 0 auto;
+	width: 1440px;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.container {
+	margin: 20px;
+	display: flex;
+}
+
+.container a img {
+	width: 20px;
+}
+
+.avatar {
+	width: 200px;
+	height: 200px;
+	border-radius: 180px;
+}
+
+.nav {
+	margin-top: 10px;
+	margin-left: 40px;
+	display: block;
+}
+
+.nav h1 {
+	margin-bottom: 15px;
+	text-align: center;
+	font-size: 50px;
+	letter-spacing: 0.05em;
+}
+
+.flag {
+	margin-left: 30%;
+	height: 250px;
+}
+
+ul, li {
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+
+.links {
+	display: flex;
+}
+
+.links li a {
+	font-size: 24px;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #000;
+	font-weight: bold;
+	
+}
+
+.links li a:hover {
+	transition: all 0.5s ease;
+	color: #E74C3C;
+}
+
+.inst,
+.github {
+	margin-left: 30px;
+}
+
+.hobbies,
+.about {
+	justify-content: space-between;	
+}
+
+.about {
+	width: 725px;
+	background: rgba(218, 247, 166, .5);
+}
+
+.list {
+	padding-bottom: 40px;
+}
+
+.list li strong {
+	color: #8E44AD;
+}
+
+.about ul li,
+.hobbies ul li {
+	font-size: 20px;
+	line-height: 30px;
+	margin-left: 10%;
+}
+
+h2 {
+	letter-spacing: 0.02em;
+	color: #000;
+	font-size: 30px;
+	text-align: center;
+}
+
+.hobbies {
+	width: 725px;
+	background: rgba(247, 214, 207, .7);
+	margin-left: 40px;
+}
+
+.biography {
+	background: #C2E7F6;
+	width: 1400px;
+	margin-left: 20px;
+	margin-right: 40px;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+}
+
+.biography h2 {
+	padding-top: 25px;
+}
+
+.biography p {
+	line-height: 32px;
+	font-size: 23px;
+	padding-left: 20px;
+	padding-right: 20px;
+	text-align: justify;
+}
+
+.biography,
+.about,
+.hobbies {
+	border-radius: 25px;
+}
+
+.biography a {
+	color: #000;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.biography a:hover {
+	color: #717171;
+	transition: all 0.5s ease;
+}
+
+.year p {
+	text-align: center;
+}
+
+.year a {
+	text-decoration: none;
+	color: #000;
+}
+
+.year a:hover {
+	transition: all 0.5s ease;
+	color: #E74C3C;
+}
