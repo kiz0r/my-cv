@@ -10,6 +10,18 @@ body {
 	box-sizing: border-box;
 }
 
+/* If You Want To Make Some Text Unselectable */
+.unselectable {
+    -webkit-touch-calloud: none; /* iOS Safari */
+    -webkit-user-select: none; /* Chrome/Safari/Opera */
+    -html-user-select: none; /* Konqueror */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently
+                                  not supported by any browser */
+}
+
+
 .container {
 	margin: 20px;
 	display: flex;
@@ -144,11 +156,11 @@ h2 {
 	transition: all 0.5s ease;
 }
 
-#italic {
+.italic {
 	font-style: italic;
 }
 
-#strong {
+.strong {
 	color: #8E44AD;
 	font-weight: bold;
 }
